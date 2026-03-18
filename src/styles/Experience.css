@@ -1,0 +1,78 @@
+.experience-display {
+  margin-bottom: 16px;
+}
+
+.experience-display h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.exp-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.company-name {
+  font-size: 0.9rem;
+  margin: 2px 0;
+  text-align: left;
+}
+
+.experience-display ul {
+  margin: 6px 0 0 20px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.experience-display li {
+  margin-bottom: 4px;
+}
+
+.experience-display p {
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+.experience-form {
+  margin-bottom: 16px;
+}
+
+.experience-form h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.experience-form input {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+}
+
+.experience-form label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.experience-display h2, .experience-form h2 {
+  text-align: left;
+}

@@ -1,0 +1,63 @@
+.education-display {
+  margin-bottom: 16px;
+}
+
+.education-display h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.school-name {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.education-display p {
+  font-size: 0.9rem;
+  text-align: left;
+  margin: 2px 0;
+}
+
+.education-form {
+  margin-bottom: 16px;
+}
+
+.education-form h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.education-form input {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+}
+
+.education-form label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.education-display h2, .education-form h2 {
+  text-align: left;
+}

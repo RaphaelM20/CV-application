@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.resume {
+  max-width: 850px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 60px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+button {
+  display: block;
+  margin: 8px 0;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: none;
+  border: 1px solid #999;
+  color: #999;
+}
